@@ -7,7 +7,7 @@ Employee Activity Tracker is a desktop application that monitors user activity, 
 - Screenshot Capture: Automatically takes screenshots at a user-defined interval.
 - AWS S3 Integration:  Automatically upload captured screenshots and activity logs to Amazon S3 .
 - Activity Monitoring: Tracks user activity such as active window focus.
-- Error Handling and Resilience :
+- Error Handling and Resilience :</br>
       1. No Internet Connection: Queue uploads and retry when the connection is restored.</br>
       2. Firewall Restrictions: Detect rewall issues and provide user-friendly error messaging.
 
