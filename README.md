@@ -13,12 +13,12 @@ Employee Activity Tracker is a desktop application that monitors user activity, 
 
 ## PROJECT STRUCTURE
 
-desktop_agent</br>
-    |</br>
-    |___project/</br>
-    	  |</br>
-      	├── app/</br>                    # Core application logic and modules
-        │   ├── __init__.py   </br>       # Marks this directory as a Python package
+``` Desktop_Agent
+    |
+    |___project/
+    	  |
+      	├── app/                     # Core application logic and modules
+        │   ├── __init__.py          # Marks this directory as a Python package
         │   ├── user_interface.py    # Code for the GUI components and user interactions
         │   ├── monitoring.py        # Handles activity tracking and screenshot capture
         │   ├── utils.py             # Helper functions and utility methods
@@ -42,7 +42,7 @@ desktop_agent</br>
         ├── main.py                  # Entry point to launch the application
         ├── requirements.txt         # Python dependencies for the project
         └── README.md                # Project documentation and usage instructions
-
+```
 ## INSTALLATION
 
 1. Clone the repository:
