@@ -8,8 +8,10 @@ Employee Activity Tracker is a desktop application that monitors user activity, 
 - AWS S3 Integration:  Automatically upload captured screenshots and activity logs to Amazon S3 .
 - Activity Monitoring: Tracks user activity such as active window focus.
 - Error Handling and Resilience : 
-                    1. No Internet Connection: Queue uploads and retry when the connection is restored.
-                    2. Firewall Restrictions: Detect rewall issues and provide user-friendly error messaging.
+                    ```
+                      1. No Internet Connection: Queue uploads and retry when the connection is restored.
+                      2. Firewall Restrictions: Detect rewall issues and provide user-friendly error messaging.
+                   ```
 
 ## PROJECT STRUCTURE
 
@@ -71,7 +73,6 @@ Desktop_Agent
 1. First, open the terminal and then download all the dependencies.
 2. Then, Do the AWS Configuration using `aws confiure` on terminal. 
 <!-- This Step is `important` Don't miss out this step, without this step screenshot did't save on a `AWS S3 Bucket`. -->
-
 3. Then, start the application using `python main.py`.
 4. The application will open, and the interface will look like this: ![Application's Interface:](Desktop_Agent/project/DEMO_IMAGE/MAIN_UI.png).
 5. Enter all the configuration settings in the application.
