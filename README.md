@@ -17,8 +17,8 @@ desktop_agent</br>
     |</br>
     |___project/</br>
     	  |</br>
-      	├── app/                     # Core application logic and modules
-        │   ├── __init__.py          # Marks this directory as a Python package
+      	├── app/</br>                    # Core application logic and modules
+        │   ├── __init__.py   </br>       # Marks this directory as a Python package
         │   ├── user_interface.py    # Code for the GUI components and user interactions
         │   ├── monitoring.py        # Handles activity tracking and screenshot capture
         │   ├── utils.py             # Helper functions and utility methods
