@@ -16,32 +16,32 @@ Employee Activity Tracker is a desktop application that monitors user activity, 
 Desktop Agent
     |
     |___project/
-    |   │
-    |   ├── app/
-    |   │   ├── __init__.py
-    |   │   ├── user_interface.py
-    |   │   ├── monitoring.py
-    |   │   ├── utils.py
-    |   │   ├── config/
-    |   │   │   ├── __init__.py
-    |   │   │   ├── poller.py
-    |   │   │   └── settings.py
-    |   │   └── assets/
-    |   │       ├── screenshots/
-    |   │       |── logs/
-    |   |       └── icon/
-    |   │
-    |   ├── tests/
-    |   │   ├── __init__.py
-    |   │   ├── test_gui.py
-    |   │   ├── test_integration.py  # File for Integration tests.
-    |   │   ├── test_monitoring.py   # File for Unit tests for the monitoring of the application.
-    |   │   ├── test_poller.py
-    |   │   ├── test_utils.py 
-    |   │  
-    |   ├── main.py
-    |   └──requirements.txt
-    └── README.md
+        |
+        ├── app/                     # Core application logic and modules
+        │   ├── __init__.py          # Marks this directory as a Python package
+        │   ├── user_interface.py    # Code for the GUI components and user interactions
+        │   ├── monitoring.py        # Handles activity tracking and screenshot capture
+        │   ├── utils.py             # Helper functions and utility methods
+        │   ├── config/              # Configuration-related files
+        │   │   ├── __init__.py
+        │   │   ├── poller.py        # Polling and periodic operations
+        │   │   └── settings.py      # Application settings and constants
+        │   └── assets/              # Resources for the application
+        │       ├── screenshots/     # Folder to store captured screenshots
+        │       ├── logs/            # Folder to store log files
+        │       └── icon/            # UI icons or application assets
+        │
+        ├── tests/                   # Test suite for the application
+        │   ├── __init__.py
+        │   ├── test_gui.py          # Unit tests for the GUI module
+        │   ├── test_integration.py  # Integration tests for end-to-end functionality
+        │   ├── test_monitoring.py   # Unit tests for the monitoring module
+        │   ├── test_poller.py       # Unit tests for the polling functionality
+        │   ├── test_utils.py        # Unit tests for utility functions
+        │
+        ├── main.py                  # Entry point to launch the application
+        ├── requirements.txt         # Python dependencies for the project
+        └── README.md                # Project documentation and usage instructions
 
 ## INSTALLATION
 
