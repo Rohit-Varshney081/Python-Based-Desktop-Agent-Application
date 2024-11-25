@@ -73,7 +73,7 @@ Desktop_Agent
 <!-- This Step is `important` Don't miss out this step, without this step screenshot did't save on a `AWS S3 Bucket`. -->
 
 3. Then, start the application using `python main.py`.
-4. The application will open, and the interface will look like this: ![alt text](DEMO_IMAGE/MAIN_UI.png).
+4. The application will open, and the interface will look like this: ![alt text](Desktop_Agent/project/DEMO_IMAGE/MAIN_UI.png).
 5. Enter all the configuration settings in the application.
 6. Click `Start Tracking` to begin tracking and capturing screenshots.
 7. To stop monitoring, click `Stop Tracking`.
